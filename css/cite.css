@@ -9,6 +9,10 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+body> main{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
 
 .homebg {
     width:100%;
@@ -24,4 +28,8 @@ main>.container {
     font-weight: 400;
     font-style: normal;
     color: rgb(195, 255, 0);  
+}
+
+.minHeight{
+    min-height: 80vh;
 }
